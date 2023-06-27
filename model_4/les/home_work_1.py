@@ -1,19 +1,8 @@
 def check(a: str):
-    s=''.join(reversed(a))
-    if a == s :
-        return print("True")
+    s=''.join(reversed(a)) #переворачиваю строку и записываю в переменную
+    if a == s : #сравниваю изначальный текст с перевернутым
+        return print("True") # если совпадает - правда
     else:
-        print("False")
+        print("False") # если не совпадает - ложь
 
-check(a = input())
-
-
-
-
-
-
-
-
-
-
-
+check(a = input("Введите текст для проверки на палиндром")) # вызываю функцию передавая значение а 
