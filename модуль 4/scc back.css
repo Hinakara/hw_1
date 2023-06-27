@@ -1,0 +1,25 @@
+.pargraph1 {
+  background-color: blue;
+}
+.pargraph2 {
+    border: red solid 4px;
+    /* margin-top: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 60px
+    padding-top: 60px */
+    margin: 60px;
+    padding: 40px;
+  }
+.pargraph3 {
+    border: red dotted 4px;
+  }
+.pargraph4 {
+    color: rgb(132, 0, 255);
+    /* font-weight: bold; */
+    font-family: Courier;
+  }
+.indo {
+    color:  rgb(132, 0, 255);
+    font-weight: bold;
+  }
